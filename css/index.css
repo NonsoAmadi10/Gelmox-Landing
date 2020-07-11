@@ -42,7 +42,7 @@ body
 }
 .ft-1
 {
-    font-size: 20px;
+    font-size: 23px;
     line-height: 1;
     font-weight: bold;
 }
@@ -72,13 +72,14 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   
 .showcase 
 {
-    background-image: linear-gradient(to bottom, rgba(2, 105, 11, 0.096), rgba(255, 241, 179, 0.233)), url('../assets/WhatsApp\ Image\ 2020-07-08\ at\ 12.44.59\ AM\ \(1\).jpeg');
+    background-image: linear-gradient(to bottom, rgba(2, 105, 11, 0.048), rgba(255, 241, 179, 0.062)), url('../assets/WhatsApp\ Image\ 2020-07-08\ at\ 12.44.59\ AM\ \(1\).jpeg');
     background-image: -moz-linear-gradient(to bottom,  rgba(2, 105, 11, 0.096), rgba(255, 241, 179, 0.233)), url('../assets/WhatsApp\ Image\ 2020-07-08\ at\ 12.44.59\ AM\ \(1\).jpeg');
     background-image: -webkit-linear-gradient(to bottom,  rgba(2, 105, 11, 0.096), rgba(255, 241, 179, 0.233)), url('../assets/WhatsApp\ Image\ 2020-07-08\ at\ 12.44.59\ AM\ \(1\).jpeg');
     background-image: -o-linear-gradient(to bottom,  rgba(2, 105, 11, 0.096), rgba(255, 241, 179, 0.233)), url('../assets/WhatsApp\ Image\ 2020-07-08\ at\ 12.44.59\ AM\ \(1\).jpeg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
     text-shadow: 5px 5px ;
     padding:1em;
@@ -110,12 +111,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     right:3rem;
 }
 
-@media(max-width: 782px) {
-    .showcase 
-    {
-        background-position: right;
-    }
-}
+
+    
 
 @media( max-width: 500px){
     .showcase p:first-child{
@@ -123,7 +120,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
    .showcase .ft-1 
     {
-        font-size: small;
+        font-size: 1.5rem;
         font-weight: normal;
     }
 

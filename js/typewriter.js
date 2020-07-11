@@ -8,9 +8,9 @@ const typewriter = new Typewriter(txt, {
 
 typewriter
     .pauseFor(2000)
-    .typeString('Mouth Watering Easy to Cook Delicious Food Anytime Of the Week Is The Wish Of Every Busy Woman.')
+    .typeString('Mouth Watering Delicious Cooking Is The Wish Of Every Busy Woman.')
     .pauseFor(300)
     .deleteAll(100)
-    .typeString('Take Home and Taste This Gelmox Jollof Rice + Chicken Combo Pack <strong>@10% discount.</strong>')
-    .pauseFor(900)
+    .typeString('Take Home and Taste This Gelmox Jollof Rice + Chicken Combo Pack <strong style="color: #f00">@10% discount.</strong>')
+    .pauseFor(1000)
     .start();
