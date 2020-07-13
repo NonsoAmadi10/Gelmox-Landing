@@ -26,7 +26,7 @@
 
 
     <header class="clearfix">
-        <nav class="navbar fixed-top navbar-expand-md navbar-default navbar-light bg-light navbar-fixed-top">
+        <nav class="navbar fixed-top navbar-expand-md navbar-default navbar-light bg-light navbar-fixed-top shadow">
             <a class="navbar-brand text-success" href="#">Gelmox</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,17 +78,50 @@
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content shadow">
                         <div class="modal-header">
-                            <h5 class="h5 text-dark" id="staticBackdropLabel">GELMOX COMBO MIX </h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
+                            <h5 class="h4 text-dark no-shadow " id="staticBackdropLabel">GELMOX COMBO
+                                MIX </h5>
                         </div>
-                        <div class="modal-body">
-                            ...
+                        <div
+                            class="modal-body no-shadow text-dark p-2 d-flex flex-column align-items-center justify-content-center">
+
+                            <div class=" row p-3 w-100">
+                                <div class="col-4">
+                                    <img src="./assets/jollof.jpeg" alt="jollof mix" width="80px"
+                                        class="border-radius-1">
+                                </div>
+                                <div class="col-8 p-2">
+                                    <a href="#" class="h6 font-weight-bolder text-dark"> Jollof Rice Mix </a href="#">
+                                    <div class="row d-flex flex-row justify-content-between p-3">
+                                        <p class="m-1 font-sm-1">₦1,000.00</p>
+                                        <input type="text" class="disabled small-width text-center" value="1" disabled
+                                            aria-disabled>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="w-100" />
+
+                            <div class=" row p-3 w-100">
+                                <div class="col-4">
+                                    <img src="./assets/chicken.jpeg" alt="chicken mix" width="100px"
+                                        class="border-radius-1">
+                                </div>
+                                <div class="col-8 p-2">
+                                    <a href="#" class="h6 font-weight-bolder text-dark"> Chicken Seasoning Mix </a
+                                        href="#">
+                                    <div class="row d-flex flex-row justify-content-between p-3">
+
+                                        <p class="m-1 font-sm-1">₦1,000.00</p>
+                                        <input type="text" class="disabled small-width text-center" value="1" disabled
+                                            aria-disabled>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Back</button>
-                            <button type="button" class="btn btn-success"> Pay Now</button>
+                        <div class="modal-footer d-flex flex-column-reverse p-auto">
+                            <button type="button" class="btn btn-outline-secondary btn-group-lg w-100"
+                                data-dismiss="modal">Back</button>
+                            <button type="button" class="btn btn-success btn-group-lg w-100 shadow border-hover"> Pay
+                                Now</button>
                         </div>
                     </div>
                 </div>
@@ -96,7 +129,7 @@
         </div>
 
 
-        <section class="store d-flex flex-column">
+        <section class="store d-flex flex-column bg-grey">
             <div class="p-5 w-100">
                 <div class="d-flex justify-content-between align-items-center">
                     <p class="d-flex h3 p-2 font-weight-bolder tin"> <span class="material-icons ">
@@ -108,63 +141,6 @@
                 </div>
                 <hr class="w-100" />
                 <div class="row p-3 mt-4 p-3">
-                    <div data-aos="fade-down-right" data-aos-duration="3000" class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <div class="card-header">
-                                <h4 class="my-0 font-weight-normal">Pro</h4>
-                            </div>
-                            <div class="card-body">
-                                <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small>
-                                </h1>
-                                <ul class="list-unstyled mt-3 mb-4">
-                                    <li>20 users included</li>
-                                    <li>10 GB of storage</li>
-                                    <li>Priority email support</li>
-                                    <li>Help center access</li>
-                                </ul>
-                                <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div data-aos="flip-up" data-aos-duration="3000" class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <div class="card-header">
-                                <h4 class="my-0 font-weight-normal">Pro</h4>
-                            </div>
-                            <div class="card-body">
-                                <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small>
-                                </h1>
-                                <ul class="list-unstyled mt-3 mb-4">
-                                    <li>20 users included</li>
-                                    <li>10 GB of storage</li>
-                                    <li>Priority email support</li>
-                                    <li>Help center access</li>
-                                </ul>
-                                <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4" data-aos="fade-down-left" data-aos-duration="3000">
-                        <div class="card mb-4 shadow-sm">
-                            <div class="card-header">
-                                <h4 class="my-0 font-weight-normal">Pro</h4>
-                            </div>
-                            <div class="card-body">
-                                <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small>
-                                </h1>
-                                <ul class="list-unstyled mt-3 mb-4">
-                                    <li>20 users included</li>
-                                    <li>10 GB of storage</li>
-                                    <li>Priority email support</li>
-                                    <li>Help center access</li>
-                                </ul>
-                                <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
-                            </div>
-                        </div>
-                    </div>
-
 
                 </div>
             </div>
