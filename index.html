@@ -19,6 +19,8 @@
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
+
+
     <title>Gelmox</title>
 </head>
 
@@ -26,30 +28,30 @@
 
 
     <header class="clearfix">
-        <nav class="navbar fixed-top navbar-expand-md navbar-default navbar-light bg-light navbar-fixed-top shadow">
+        <nav class="shadow navbar fixed-top navbar-expand-md navbar-default navbar-light bg-light navbar-fixed-top">
             <a class="navbar-brand text-success" href="#">Gelmox</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto p-1">
-                    <li class="nav-item text-center active pl-3 text-green pr-3">
+                <ul class="p-1 ml-auto navbar-nav">
+                    <li class="pl-3 pr-3 text-center nav-item active text-green">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item text-center pr-3 pl-3">
+                    <li class="pl-3 pr-3 text-center nav-item">
                         <a class="nav-link" href="#">About</a>
                     </li>
-                    <li class="nav-item text-center pr-3 pl-3">
+                    <li class="pl-3 pr-3 text-center nav-item">
                         <a class="nav-link" href="#"> Blog</a>
                     </li>
-                    <li class="nav-item text-center pr-3 pl-3">
+                    <li class="pl-3 pr-3 text-center nav-item">
                         <a class="nav-link" href="#">Store</a>
                     </li>
-                    <li class="nav-item text-center pr-3 pl-3">
+                    <li class="pl-3 pr-3 text-center nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
-                    <li class="nav-item text-center pr-3 bod-green pl-3">
+                    <li class="pl-3 pr-3 text-center nav-item bod-green">
                         <a class="nav-link" href="#">Login</a>
                     </li>
                 </ul>
@@ -67,7 +69,7 @@
             <p class='display-2 font-weight-bolder'> Your Wish Granted!</p>
             <p class="ft-1 txt"></p>
             <button
-                class="btn btn-default btn-group-lg btn-success big-btn mt-4 animate__animated animate__bounce animate__slower animate__repeat-3 "
+                class="mt-4 btn btn-default btn-group-lg gelmox-green btn-success big-btn animate__animated animate__bounce animate__slower animate__repeat-3 "
                 data-toggle="modal" data-target="#staticBackdrop">
                 Buy
                 Now </button>
@@ -76,42 +78,42 @@
             <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
                 role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content shadow">
+                    <div class="shadow modal-content">
                         <div class="modal-header">
                             <h5 class="h4 text-dark no-shadow " id="staticBackdropLabel">GELMOX COMBO
                                 MIX </h5>
                         </div>
                         <div
-                            class="modal-body no-shadow text-dark p-2 d-flex flex-column align-items-center justify-content-center">
+                            class="p-2 modal-body no-shadow text-dark d-flex flex-column align-items-center justify-content-center">
 
-                            <div class=" row p-3 w-100">
+                            <div class="p-3 row w-100">
                                 <div class="col-4">
                                     <img src="./assets/jollof.jpeg" alt="jollof mix" width="80px"
                                         class="border-radius-1">
                                 </div>
-                                <div class="col-8 p-2">
+                                <div class="p-2 col-8">
                                     <a href="#" class="h6 font-weight-bolder text-dark"> Jollof Rice Mix </a href="#">
-                                    <div class="row d-flex flex-row justify-content-between p-3">
+                                    <div class="flex-row p-3 row d-flex justify-content-between">
                                         <p class="m-1 font-sm-1">₦1,000.00</p>
-                                        <input type="text" class="disabled small-width text-center" value="1" disabled
+                                        <input type="text" class="text-center disabled small-width" value="1" disabled
                                             aria-disabled>
                                     </div>
                                 </div>
                             </div>
                             <hr class="w-100" />
 
-                            <div class=" row p-3 w-100">
+                            <div class="p-3 row w-100">
                                 <div class="col-4">
                                     <img src="./assets/chicken.jpeg" alt="chicken mix" width="100px"
                                         class="border-radius-1">
                                 </div>
-                                <div class="col-8 p-2">
+                                <div class="p-2 col-8">
                                     <a href="#" class="h6 font-weight-bolder text-dark"> Chicken Seasoning Mix </a
                                         href="#">
-                                    <div class="row d-flex flex-row justify-content-between p-3">
+                                    <div class="flex-row p-3 row d-flex justify-content-between">
 
                                         <p class="m-1 font-sm-1">₦1,000.00</p>
-                                        <input type="text" class="disabled small-width text-center" value="1" disabled
+                                        <input type="text" class="text-center disabled small-width" value="1" disabled
                                             aria-disabled>
                                     </div>
                                 </div>
@@ -120,7 +122,8 @@
                         <div class="modal-footer d-flex flex-column-reverse p-auto">
                             <button type="button" class="btn btn-outline-secondary btn-group-lg w-100"
                                 data-dismiss="modal">Back</button>
-                            <button type="button" class="btn btn-success btn-group-lg w-100 shadow border-hover"> Pay
+                            <button type="button"
+                                class="shadow btn btn-success gelmox-green btn-group-lg w-100 border-hover"> Pay
                                 Now</button>
                         </div>
                     </div>
@@ -129,26 +132,246 @@
         </div>
 
 
-        <section class="store d-flex flex-column bg-grey">
+        <!--Featured Product-->
+
+        <section class="pb-4 featured-product h-vh">
             <div class="p-5 w-100">
-                <div class="d-flex justify-content-between align-items-center">
-                    <p class="d-flex h3 p-2 font-weight-bolder tin"> <span class="material-icons ">
-                            store
-                        </span>&nbsp; Our Store
-
-                        <a href="#" class="tiny text-danger ml-2 m-auto"> View More</a>
+                <div class="">
+                    <p class="p-2 d-flex h3 font-weight-bolder">Featured Product
                     </p>
+                    <hr class="w-100" />
                 </div>
-                <hr class="w-100" />
-                <div class="row p-3 mt-4 p-3">
 
+                <div class="mt-3 row">
+                    <div data-aos="flip-left" class="col-md-8">
+                        <img src="./assets/Thicker.jpeg" alt="soup thickener" width="90%" class="">
+                    </div>
+                    <div data-aos="fade-left" data-aos-duration="3000"
+                        class="col-md-4 d-flex flex-column align-items-center">
+                        <h4 class="p-2 h4 text-success"> Soup Thickening Powder</h4>
+                        <div class="mt-2 content">
+                            Have you ever wondered what makes the native African soup so nutritious? Are you simply the
+                            type that eats just for the taste of it with little or no knowledge about the nutritional
+                            benefits of contained in the food?
+                            <br />
+                            <br />
+
+                            <strong>Gelmox Soup Thickener</strong> is a complete condiment for cooking all kinds of soup
+                            with vegetable
+                            of choice.
+                            <br />
+                            It is 100% organic, made from natural occuring spices and also an excellent source of
+                            anti-oxidant and rich in vitamins.
+
+                        </div>
+                        <br />
+
+                        <a href="#"
+                            class="mt-2 btn btn-default btn-success gelmox-green btn-group-lg btn-lg border-hover w-100">
+                            Buy
+                            Now
+                        </a>
+                    </div>
                 </div>
-            </div>
-
 
         </section>
 
+        <!--Referral Program-->
+
+        <section class="gelmox-red h-vh d-flex flex-column justify-content-center align-items-center">
+            <h3 class="p-3 mt-2 text-center h2 font-weight-bolder"> No Extra Feeding Money ?</h3>
+            <div class="p-5 mt-3 row col-reverse">
+                <div class="col-md-8">
+                    <p class="font-weight-bold h5"> Earn Weekly Cash Rewards On Gelmox Products Everytime You Shop. </p>
+                    <p class="font-weight-bold h5"> How it Works</p>
+
+                    <ul class="p-4 lister">
+                        <li class="pt-2 pb-2">Signup To Our Referral Programme</li>
+                        <li class="pt-2 pb-2"> 10% Cash From Others You Refer</li>
+                        <li class="pt-2 pb-2">10% Discount On Your Purchase</li>
+                    </ul>
+                </div>
+                <div data-aos="zoom-in-left" class="col-md-4 d-flex align-items-center justify-content-center">
+                    <img src="./assets/revenue_.png" alt="Earn" width="400px">
+                </div>
+            </div>
+            <div class="p-4 btn-div"> <a href="#" class="p-4 btn btn-default btn-group-md gelmox-yellow"> Create An
+                    Account </a>
+            </div>
+        </section>
+
+
+        <section class="gelmox-secondary h-vh h-100">
+            <div class="ml-2 mr-2">
+                <!-- Section: Testimonials v.1 -->
+                <section class="p-1 my-5 text-center">
+
+                    <!-- Section heading -->
+                    <h2 class="my-5 h1-responsive font-weight-bold text-light"> They Love Gelmox </h2>
+                    <!-- Section description -->
+                    <p class="mx-auto mb-5 dark-grey-text w-responsive text-light"> We are Very Happy Because We Have
+                        Happy
+                        Customers </p>
+
+                    <!-- Grid row -->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div data-aos="flip-up" class="mb-4 col-lg-4 col-md-12 mb-lg-0">
+                            <!--Card-->
+                            <div class="card testimonial-card">
+                                <!--Background color-->
+                                <div class="card-up info-color"></div>
+                                <!--Avatar-->
+                                <div class="mx-auto avatar white">
+                                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
+                                        class="rounded-circle img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <!--Name-->
+                                    <h4 class="mb-4 font-weight-bold">Nonso Amadi</h4>
+                                    <p> - CEO Pyckup Logistics</p>
+                                    <hr>
+                                    <!--Quotation-->
+                                    <p class="mt-4 dark-grey-text"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                                            class="bi bi-chat-left-quote" fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                            <path fill-rule="evenodd"
+                                                d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z" />
+                                        </svg> <span class="font-italic">I Invited a
+                                            few friends to taste Gelmox Jollof Mix and Everyone Loved It.
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <!--Card-->
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div data-aos="flip-up" class="mb-4 col-lg-4 col-md-6 mb-md-0">
+                            <!--Card-->
+                            <div class="card testimonial-card">
+                                <!--Background color-->
+                                <div class="card-up blue-gradient">
+                                </div>
+                                <!--Avatar-->
+                                <div class="mx-auto avatar white">
+                                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg"
+                                        class="rounded-circle img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <!--Name-->
+                                    <h4 class="mb-4 font-weight-bold">Tina Okocha</h4>
+                                    <p> - Caterer, Lagos</p>
+                                    <hr>
+                                    <!--Quotation-->
+                                    <p class="mt-4 dark-grey-text"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                                            class="bi bi-chat-left-quote" fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                            <path fill-rule="evenodd"
+                                                d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z" />
+                                        </svg> <span class="font-italic"> I like using the curry powder and chicken mix
+                                            for my stews.
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <!--Card-->
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div data-aos="flip-up" class="col-lg-4 col-md-6">
+                            <!--Card-->
+                            <div class="card testimonial-card">
+                                <!--Background color-->
+                                <div class="card-up indigo"></div>
+                                <!--Avatar-->
+                                <div class="mx-auto avatar white">
+                                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
+                                        class="rounded-circle img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <!--Name-->
+                                    <h4 class="mb-4 font-weight-bold">Kim Kardashian</h4>
+                                    <p> - Nonso's Wife, Lagos</p>
+                                    <hr>
+                                    <!--Quotation-->
+                                    <p class="mt-4 dark-grey-text"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                                            class="bi bi-chat-left-quote" fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                            <path fill-rule="evenodd"
+                                                d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z" />
+                                        </svg> <span class="font-italic"> The Soup mix keeps my family licking their
+                                            fingers.
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <!--Card-->
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!-- Grid row -->
+
+                </section>
+                <!-- Section: Testimonials v.1 -->
+            </div>
+        </section>
+        <!--Store-->
+        <!---
+        <section class="store">
+            <div class="p-5 w-100">
+                <div class="d-flex justify-content-between align-items-center">
+                    <p class="p-2 d-flex h3 font-weight-bolder tin"> <span class="material-icons ">
+                            store
+                        </span>&nbsp; Our Store
+
+                        <a href="#" class="m-auto ml-2 tiny text-danger"> View More</a>
+                    </p>
+                </div>
+                <hr class="w-100" />
+                <div class="p-3 mt-4 row space align-items-center justify-content-center">
+                    <div class="card blow" style="width: 30rem;">
+                        <img src="./assets/curry.jpeg" class="card-img-top" alt="curry powder" width="100%"
+                            height="500px">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bolder">₦1499.99</h5>
+                            <p class="card-text"> Seasoning Curry Powder</p>
+                        </div>
+                    </div>
+
+                    <div class="card blow" style="width: 30rem;">
+                        <img src="./assets/Fish.jpeg" class="card-img-top" alt="cury powder" width="100%"
+                            height="500px">
+                        <div class="card-body ">
+                            <h5 class="card-title font-weight-bolder">₦999.99</h5>
+                            <p class="card-text">Seasoning Fish Mix</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -
+
+
+
+        </section> -->
+
+
+
+
+
     </main>
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
