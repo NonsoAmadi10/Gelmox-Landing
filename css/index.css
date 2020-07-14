@@ -35,7 +35,7 @@ body
 
 .gelmox-red
 {
-    background: linear-gradient(45deg,#d63e67, #d43a63,#ff3368);
+    background: linear-gradient(45deg,#df0b0b, #dd1c1c,#ff3333);
     color: #fff;
 }
 .gelmox-yellow
@@ -45,7 +45,7 @@ body
 }
 
 .gelmox-secondary {
-    background: #161d25;
+    background: #030405;
   }
 
 
