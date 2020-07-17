@@ -135,7 +135,7 @@
         </div>
     </section>
 
-    <section class="container">
+    <section class="container pb-4">
         <div class="accordion" id="accordionExample">
             <div class="card shadow">
                 <div class="card-header bg-white d-flex justify-content-between" id="headingOne">
@@ -235,7 +235,26 @@
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                     <div class="card-body">
+                        <p class="text-muted text-center"> No reviews yet</p>
 
+                        <form class="mt-4 p-5 mb-3">
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                    anyone else.</small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="area">Example textarea</label>
+                                <textarea class="form-control" id="area" rows="5"></textarea>
+                            </div>
+
+
+                            <button type="submit" class="btn btn-default gelmox-green text-light">
+                                Leave a
+                                Review</button>
+                        </form>
                     </div>
                 </div>
             </div>
