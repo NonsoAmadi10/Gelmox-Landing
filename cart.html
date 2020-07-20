@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <meta name="description"
+        content="Gelmox is the new way of preparing Nigerian food using over 250 natural indeginous ingredients. We offer a full line of Nigerian food seasonings and delicious, easy-to-prepare mixes for every meal from jollof rice, side dishes to traditional soups and stews. Satisfaction is 100% guaranteed, when you cook with Gelmox food mixes.">
+    <meta name="keywords" content="Spice, Food, Chicken Mix, ecommerce">
+    <meta name="og:title" property="og:title" content="Gelmox-Tasty Delicious Cooking Made Simple">
+    <meta name="twitter:card" content="Tasty Delicious Cooking Made Simple">
+
+    <meta name="author" content="Gelmox">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="canonical" href="https://gelmoxgroup.com/">
+</head>
+
+<body>
+    <header class="clearfix">
+        <nav class="shadow navbar fixed-top navbar-expand-md navbar-default navbar-light bg-light ">
+            <a class="navbar-brand text-success" href="#">
+                <img src="https://shrotonu.sirv.com/Images/logo.png" alt="logo" width="70px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="p-1 ml-auto navbar-nav">
+                    <li class="pl-3 pr-3 text-center nav-item  text-green">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="pl-3 pr-3 text-center nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="pl-3 pr-3 text-center nav-item">
+                        <a class="nav-link" href="#"> Blog</a>
+                    </li>
+                    <li class="pl-3 pr-3 active text-center nav-item">
+                        <a class="nav-link" href="#">Store</a>
+                    </li>
+                    <li class="pl-3 pr-3 text-center nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="pl-3 pr-3 text-center nav-item d-flex">
+                        <a class="nav-link" href="#">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart3 text-center"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                            </svg>
+                            <span id="AddToCart">
+                            </span>
+                            </i>
+                        </a>
+                    </li>
+                    <li class="pl-3 pr-3 text-center nav-item bod-green">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </nav>
+
+        <main>
+            <br />
+            <div class="container gelmox-margin">
+                <table id="cart" class="table table-hover table-condensed mt-4">
+                    <thead>
+                        <tr>
+                            <th style="width:50%">Product</th>
+                            <th style="width:10%">Price</th>
+                            <th style="width:8%">Quantity</th>
+                            <th style="width:22%" class="text-center">Subtotal</th>
+                            <th style="width:10%"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-th="Product">
+                                <div class="row">
+                                    <div class="col-sm-2 hidden-xs"><img
+                                            src="https://shrotonu.sirv.com/Images/curry.jpeg" alt="product_1"
+                                            width="50%" /></div>
+                                    <div class="col-sm-10">
+                                        <h4 class="nomargin">Jollof Rice Mix</h4>
+
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Price">$1.99</td>
+                            <td data-th="Quantity">
+                                <div class="def-number-input number-input safari_only text-center d-flex">
+                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                        class="minus btn btn-default">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </button>
+                                    <input class="quantity" min="0" name="quantity" value="1" type="number" disabled>
+                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                        class="plus btn btn-default">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z" />
+                                            <path fill-rule="evenodd"
+                                                d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </td>
+                            <td data-th="Subtotal" class="text-center">1.99</td>
+                            <td class="actions" data-th="">
+                                <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td data-th="Product">
+                                <div class="row">
+                                    <div class="col-sm-2 hidden-xs"><img
+                                            src="https://shrotonu.sirv.com/Images/curry.jpeg" alt="curry" width="50%" />
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <h4 class="nomargin">Curry</h4>
+                                    </div>
+                                </div>
+                            </td>
+                            <td data-th="Price">$1.99</td>
+                            <td data-th="Quantity">
+                                <div class="def-number-input number-input safari_only text-center d-flex">
+                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                        class="minus btn btn-default">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </button>
+                                    <input class="quantity" min="0" name="quantity" value="1" type="number" disabled>
+                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                        class="plus btn btn-default">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z" />
+                                            <path fill-rule="evenodd"
+                                                d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </td>
+                            <td data-th="Subtotal" class="text-center">1.99</td>
+                            <td class="actions" data-th="">
+                                <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td><a href="#" class="btn btn-default btn-group-lg btn-outline-danger"><svg width="1em"
+                                        height="1em" viewBox="0 0 16 16" class="bi bi-box-arrow-in-left"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M7.854 11.354a.5.5 0 0 0 0-.708L5.207 8l2.647-2.646a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708 0z" />
+                                        <path fill-rule="evenodd"
+                                            d="M15 8a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0 0 1h9A.5.5 0 0 0 15 8z" />
+                                        <path fill-rule="evenodd"
+                                            d="M2.5 14.5A1.5 1.5 0 0 1 1 13V3a1.5 1.5 0 0 1 1.5-1.5h8A1.5 1.5 0 0 1 12 3v1.5a.5.5 0 0 1-1 0V3a.5.5 0 0 0-.5-.5h-8A.5.5 0 0 0 2 3v10a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-1.5a.5.5 0 0 1 1 0V13a1.5 1.5 0 0 1-1.5 1.5h-8z" />
+                                    </svg>&nbsp; Continue
+                                    Shopping</a></td>
+                            <td colspan="2" class="hidden-xs"></td>
+                            <td class="hidden-xs text-center"><strong>Total $1.99</strong></td>
+                            <td><a href="#" class="btn btn-success btn-group-lg btn-default w-100"> Checkout <svg
+                                        width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-square"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                        <path fill-rule="evenodd"
+                                            d="M7.646 11.354a.5.5 0 0 1 0-.708L10.293 8 7.646 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0z" />
+                                        <path fill-rule="evenodd"
+                                            d="M4.5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5z" />
+                                    </svg>
+                                </a></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="./js/typewriter.js"></script>
+
+</body>
+
+</html>
