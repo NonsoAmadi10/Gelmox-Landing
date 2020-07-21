@@ -24,277 +24,231 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="canonical" href="https://gelmoxgroup.com/">
+    <link href="css/ui.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" />
 </head>
 
 <body>
     <br>
-    <header class="clearfix">
-        <nav class="shadow navbar fixed-top navbar-expand-md navbar-default navbar-light bg-light ">
-            <a class="navbar-brand text-success" href="#">
-                <img src="https://shrotonu.sirv.com/Images/logo.png" alt="logo" width="70px">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="p-1 ml-auto navbar-nav">
-                    <li class="pl-3 pr-3 text-center nav-item  text-green">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="pl-3 pr-3 text-center nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="pl-3 pr-3 text-center nav-item">
-                        <a class="nav-link" href="#"> Blog</a>
-                    </li>
-                    <li class="pl-3 pr-3 active text-center nav-item">
-                        <a class="nav-link" href="#">Store</a>
-                    </li>
-                    <li class="pl-3 pr-3 text-center nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="pl-3 pr-3 text-center nav-item bod-green">
-                        <a class="nav-link" href="#">Login</a>
-                    </li>
-                </ul>
+    <header class="section-header">
 
-            </div>
+        <section class="header-main border-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-4">
+                        <a href="http://bootstrap-ecommerce.com" class="brand-wrap">
+                            <img class="logo" src="https://shrotonu.sirv.com/Images/logo.png">
+                        </a> <!-- brand-wrap.// -->
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <form action="#" class="search">
+                            <div class="input-group w-100">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <div class="input-group-append">
+                                    <button class="btn btn-success" type="submit">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form> <!-- search-wrap .end// -->
+                    </div> <!-- col.// -->
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="widgets-wrap float-md-right">
+                            <div class="mr-3 widget-header">
+                                <a href="#" class="border icon icon-sm rounded-circle"><i
+                                        class="fa fa-shopping-cart"></i></a>
+                                <span class="badge badge-pill badge-danger notify">0</span>
+                            </div>
+                            <div class="widget-header icontext">
+                                <a href="#" class="border icon icon-sm rounded-circle"><i class="fa fa-user"></i></a>
+                                <div class="text">
+                                    <span class="text-muted">Welcome!</span>
+                                    <div>
+                                        <a href="#">Sign in</a> |
+                                        <a href="#"> Register</a>
+                                    </div>
+                                </div>
+                            </div>
 
-        </nav>
+                        </div> <!-- widgets-wrap.// -->
+                    </div> <!-- col.// -->
+                </div> <!-- row.// -->
+            </div> <!-- container.// -->
+        </section> <!-- header-main .// -->
+    </header> <!-- section-header.// -->
 
-    </header>
-    <div class="container gelmox-margin">
 
-        <div class="row">
-
-            <div class="col-lg-3">
-
-                <h1 class="my-4 text-success font-weight-bold">
-
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-shop" fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M0 15.5a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zM3.12 1.175A.5.5 0 0 1 3.5 1h9a.5.5 0 0 1 .38.175l2.759 3.219A1.5 1.5 0 0 1 16 5.37v.13h-1v-.13a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.13H0v-.13a1.5 1.5 0 0 1 .361-.976l2.76-3.22z" />
+    <!-- ========================= SECTION PAGETOP ========================= -->
+    <section class="overflow-hidden section-pagetop bg">
+        <div class="container">
+            <h2 class="title-page"> <span class="text-success"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                        class="bi bi-bag-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path
-                            d="M2.375 6.875c.76 0 1.375-.616 1.375-1.375h1a1.375 1.375 0 0 0 2.75 0h1a1.375 1.375 0 0 0 2.75 0h1a1.375 1.375 0 1 0 2.75 0h1a2.375 2.375 0 0 1-4.25 1.458 2.371 2.371 0 0 1-1.875.917A2.37 2.37 0 0 1 8 6.958a2.37 2.37 0 0 1-1.875.917 2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.5h1c0 .76.616 1.375 1.375 1.375z" />
-                        <path
-                            d="M4.75 5.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm3.75 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm3.75 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
-                        <path fill-rule="evenodd"
-                            d="M2 7.846V7H1v.437c.291.207.632.35 1 .409zm-1 .737c.311.14.647.232 1 .271V15H1V8.583zm13 .271a3.354 3.354 0 0 0 1-.27V15h-1V8.854zm1-1.417c-.291.207-.632.35-1 .409V7h1v.437zM3 9.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5V15H7v-5H4v5H3V9.5zm6 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-4zm1 .5v3h2v-3h-2z" />
-                    </svg>&nbsp; Our Store</h1>
-                <p class="text-muted"> Categories</p>
-                <div class="list-group">
-                    <a href="#" class="list-group-item text-danger">Food Mixes (5)</a>
+                            d="M1 4h14v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4zm7-2.5A2.5 2.5 0 0 0 5.5 4h-1a3.5 3.5 0 1 1 7 0h-1A2.5 2.5 0 0 0 8 1.5z" />
+                    </svg></span> Our Store </h2>
+            <nav>
+                <ol class="text-white breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#"> About</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Store</li>
+                </ol>
+            </nav>
+        </div> <!-- container //  -->
+    </section>
 
-                </div>
-
+    <header class="pb-3 m-4 border-bottom">
+        <div class="form-inline">
+            <span class="mr-md-auto">5 Items found </span>
+            <select class="mr-2 form-control">
+                <option>Latest items</option>
+                <option>Trending</option>
+                <option>Most Popular</option>
+                <option>Cheapest</option>
+            </select>
+            <div class="btn-group">
+                <a href="#" class="btn btn-outline-secondary" data-toggle="tooltip" title="List view">
+                    <i class="fa fa-bars"></i></a>
+                <a href="#" class="btn btn-outline-secondary active" data-toggle="tooltip" title="Grid view">
+                    <i class="fa fa-th"></i></a>
             </div>
-            <!-- /.col-lg-3 -->
-
-            <div class="col-lg-9">
-
-                <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item m-auto active">
-                            <img class="d-block img-fluid" src="https://shrotonu.sirv.com/Images/soup2.jpeg"
-                                alt="First slide" width="100%">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block img-fluid" src="https://shrotonu.sirv.com/Images/stew.jpeg"
-                                alt="Second slide" width="100%">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block img-fluid"
-                                src="https://shrotonu.sirv.com/Images/WhatsApp%20Image%202020-07-08%20at%2012.45.00%20AM.jpeg"
-                                alt="Third slide" width="100%">
-                        </div>
-
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="https://shrotonu.sirv.com/Images/jollof.jpeg"
-                                    alt="jollof"></a>
-                            <div class="card-body">
-                                <h4 class="card-title">
-                                    <a href="#" class="text-danger">Jollof Rice Mix</a>
-                                </h4>
-                                <h5>₦1,000.00</h5>
-                                <div class="card-text text-success">
-                                    <small class="text-success">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                                </div>
-                                <hr class="w-100 p-2">
-                                <div class="mt-4"> <button class="btn btn-default btn-outline-success w-100">
-                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus"
-                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd"
-                                                d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z" />
-                                            <path fill-rule="evenodd"
-                                                d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z" />
-                                            <path fill-rule="evenodd"
-                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
-                                        </svg>
-                                        Add To Cart</button></div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="https://shrotonu.sirv.com/Images/curry.jpeg"
-                                    alt=""></a>
-                            <div class="card-body">
-                                <h4 class="card-title">
-                                    <a href="#" class="text-danger"> Curry Powder</a>
-                                </h4>
-                                <h5>₦1,000.00</h5>
-                                <div class="card-text text-success">
-                                    <small class="text-success">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                                </div>
-                                <hr class="w-100 p-2">
-                                <div class="mt-4"> <button class="btn btn-default btn-outline-success w-100">
-                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus"
-                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd"
-                                                d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z" />
-                                            <path fill-rule="evenodd"
-                                                d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z" />
-                                            <path fill-rule="evenodd"
-                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
-                                        </svg>
-                                        Add To Cart</button></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="https://shrotonu.sirv.com/Images/Fish.jpeg"
-                                    alt="fishes"></a>
-                            <div class="card-body">
-                                <h4 class="card-title">
-                                    <a href="#" class="text-danger"> Fish Mix</a>
-                                </h4>
-                                <h5>₦1,000.00</h5>
-                                <div class="card-text text-success">
-                                    <small class="text-success">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                                </div>
-                                <hr class="w-100 p-2">
-                                <div class="mt-4"> <button class="btn btn-default btn-outline-success w-100">
-                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus"
-                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd"
-                                                d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z" />
-                                            <path fill-rule="evenodd"
-                                                d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z" />
-                                            <path fill-rule="evenodd"
-                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
-                                        </svg>
-                                        Add To Cart</button></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="https://shrotonu.sirv.com/Images/chicken.jpeg"
-                                    alt="chicken"></a>
-                            <div class="card-body">
-                                <h4 class="card-title">
-                                    <a href="#" class="text-danger">Chicken Mix</a>
-                                </h4>
-                                <h5>₦1,000.00</h5>
-                                <div class="card-text text-success">
-                                    <small class="text-success">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                                </div>
-                                <hr class="w-100 p-2">
-                                <div class="mt-4"> <button class="btn btn-default btn-outline-success w-100">
-                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus"
-                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd"
-                                                d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z" />
-                                            <path fill-rule="evenodd"
-                                                d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z" />
-                                            <path fill-rule="evenodd"
-                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
-                                        </svg>
-                                        Add To Cart</button></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="https://shrotonu.sirv.com/Images/soup%20.jpeg"
-                                    alt="soup thickener"></a>
-                            <div class="card-body">
-                                <h4 class="card-title">
-                                    <a href="#" class="text-danger">Soup Thickener</a>
-                                </h4>
-                                <h5>₦1,000.00</h5>
-                                <div class="card-text text-success">
-                                    <small class="text-success">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                                </div>
-                                <hr class="w-100 p-2">
-                                <div class="mt-4"> <button class="btn btn-default btn-outline-success w-100">
-                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus"
-                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd"
-                                                d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z" />
-                                            <path fill-rule="evenodd"
-                                                d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z" />
-                                            <path fill-rule="evenodd"
-                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
-                                        </svg>
-                                        Add To Cart</button></div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <!-- /.row -->
-
-                </div>
-                <!-- /.col-lg-9 -->
-
-            </div>
-            <!-- /.row -->
-
         </div>
-        <!-- /.container -->
+    </header><!-- sect-heading -->
 
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-            crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
+
+    <div class="m-4 row">
+        <div class="col-md-4">
+            <figure class="card card-product-grid">
+                <div class="img-wrap bg-grey">
+                    <span class="badge badge-danger"> NEW </span>
+                    <img src="https://shrotonu.sirv.com/Images/Fish.jpeg">
+                    <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                </div> <!-- img-wrap.// -->
+                <figcaption class="info-wrap">
+                    <div class="fix-height">
+                        <a href="#" class="title">Great item name goes here</a>
+                        <div class="mt-2 price-wrap">
+                            <span class="price">$1280</span>
+                            <del class="price-old">$1980</del>
+                        </div> <!-- price-wrap.// -->
+                    </div>
+                    <a href="#" class="btn btn-block btn-outline-success">Add to cart </a>
+                </figcaption>
+            </figure>
+        </div> <!-- col.// -->
+
+        <div class="col-md-4">
+            <figure class="card card-product-grid">
+                <div class="img-wrap bg-grey">
+                    <img src="https://shrotonu.sirv.com/Images/jollof.jpeg">
+                    <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                </div> <!-- img-wrap.// -->
+                <figcaption class="info-wrap">
+                    <div class="fix-height">
+                        <a href="#" class="title">Product name goes here just for demo item</a>
+                        <div class="mt-2 price-wrap">
+                            <span class="price">$1280</span>
+                        </div> <!-- price-wrap.// -->
+                    </div>
+                    <a href="#" class="btn btn-block btn-outline-success">Add to cart </a>
+                </figcaption>
+            </figure>
+        </div> <!-- col.// -->
+
+        <div class="col-md-4">
+            <figure class="card card-product-grid">
+                <div class="img-wrap bg-grey">
+                    <img src="https://shrotonu.sirv.com/Images/chicken.jpeg">
+                    <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                </div> <!-- img-wrap.// -->
+                <figcaption class="info-wrap">
+                    <div class="fix-height">
+                        <a href="#" class="title">Product name goes here just for demo item</a>
+                        <div class="mt-2 price-wrap">
+                            <span class="price">$1280</span>
+                        </div> <!-- price-wrap.// -->
+                    </div>
+                    <a href="#" class="btn btn-block btn-outline-success">Add to cart </a>
+                </figcaption>
+            </figure>
+        </div> <!-- col.// -->
+
+        <div class="col-md-4">
+            <figure class="card card-product-grid">
+                <div class="img-wrap bg-grey">
+                    <img src="https://shrotonu.sirv.com/Images/curry.jpeg">
+                    <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                </div> <!-- img-wrap.// -->
+                <figcaption class="info-wrap">
+                    <div class="fix-height">
+                        <a href="#" class="title">Product name goes here just for demo item</a>
+                        <div class="mt-2 price-wrap">
+                            <span class="price">$1280</span>
+                        </div> <!-- price-wrap.// -->
+                    </div>
+                    <a href="#" class="btn btn-block btn-outline-success">Add to cart </a>
+                </figcaption>
+            </figure>
+        </div> <!-- col.// -->
+
+        <div class="col-md-4">
+            <figure class="card card-product-grid">
+                <div class="img-wrap bg-grey">
+                    <img src="https://shrotonu.sirv.com/Images/soup%20.jpeg">
+                    <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+                </div> <!-- img-wrap.// -->
+                <figcaption class="info-wrap">
+                    <div class="fix-height">
+                        <a href="#" class="title">Product name goes here just for demo item</a>
+                        <div class="mt-2 price-wrap">
+                            <span class="price">$1280</span>
+                        </div> <!-- price-wrap.// -->
+                    </div>
+                    <a href="#" class="btn btn-block btn-outline-success">Add to cart </a>
+                </figcaption>
+            </figure>
+        </div> <!-- col.// -->
+
+        <!-- col.// -->
+
+        <!-- col.// -->
+
+
+    </div> <!-- row end.// -->
+
+    </section>
+    <!-- ========================= SECTION CONTENT END// ========================= -->
+
+    <!-- ========================= FOOTER ========================= -->
+    <footer class="section-footer border-top padding-y">
+        <div class="container">
+            <p class="float-md-right">
+                &copy Copyright 2020 Gelmox All rights reserved
+            </p>
+            <p>
+                <a href="#">Terms and conditions</a>
+            </p>
+        </div><!-- //container -->
+    </footer>
+    <!-- ========================= FOOTER END // ========================= -->
+
+
+    <!-- /.container -->
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 
