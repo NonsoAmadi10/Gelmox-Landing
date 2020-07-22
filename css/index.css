@@ -26,7 +26,16 @@ body
     border: 3px solid rgb(2, 92, 2);
   }
 
+.line-height
+{
+    padding: 10px;
+    line-height: 1;
+}
 
+.font-big
+{
+    font-size: medium;
+}
 .navbar-brand
 {
     font-size: larger;
@@ -40,6 +49,17 @@ body
 .navbar-light
 {
     background: #fff!important;
+}
+.section
+{
+    height: 80vh!important;
+    display: flex;
+    justify-content: center;
+
+}
+
+.section * {
+    justify-content: center;
 }
 
 .gelmox-green
@@ -247,6 +267,13 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 {
     background: #18205f49;
 }
+
+.gelmox-gradient
+{
+    background: linear-gradient(45deg, rgb(4, 156, 85),rgb(4, 156, 85), orangered);
+    min-height: 400px;
+    
+}
 .space div
 {
  margin: 2rem;   
@@ -315,8 +342,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 	min-height: 290px;
 }
 .carousel .carousel-item .img-box {
-	width: 280px;
-	height: 280px;
+	width: 250px;
+	height: 250px;
 	margin: 0 auto;
 	padding: 5px;
 	border: 1px solid #ddd;
@@ -394,30 +421,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 
 /* Testimonial */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -535,8 +538,19 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     .sm-h div:last-child
 {
     height: 400px!important;
+
+
 }
 
+.m-sm-0 
+{
+    margin:0!important;
+    padding:0!important;
+}
+.section 
+{
+    height: auto!important;
+}
 .center 
 {
     display: flex;

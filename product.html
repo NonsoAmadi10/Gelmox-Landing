@@ -23,56 +23,91 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="canonical" href="https://gelmoxgroup.com/">
+
+    <link href="css/ui.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" />
 </head>
 
 <body>
 
-    <header class="clearfix">
-        <nav class="shadow navbar fixed-top navbar-expand-md navbar-default navbar-light bg-light ">
-            <a class="navbar-brand text-success" href="#">
-                <img src="https://shrotonu.sirv.com/Images/logo.png" alt="logo" width="70px">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <header class="section-header">
+
+        <section class="header-main border-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-4">
+                        <a href="http://bootstrap-ecommerce.com" class="brand-wrap">
+                            <img class="logo" src="https://shrotonu.sirv.com/Images/logo.png" width="70px">
+                        </a> <!-- brand-wrap.// -->
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <form action="#" class="search">
+                            <div class="input-group w-100">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <div class="input-group-append">
+                                    <button class="btn btn-success" type="submit">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form> <!-- search-wrap .end// -->
+                    </div> <!-- col.// -->
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="widgets-wrap float-md-right">
+                            <div class="mr-3 widget-header">
+                                <a href="#" class="border icon icon-sm rounded-circle"><i
+                                        class="fa fa-shopping-cart"></i></a>
+                                <span class="badge badge-pill badge-danger notify">0</span>
+                            </div>
+                            <div class="widget-header icontext">
+                                <a href="#" class="border icon icon-sm rounded-circle"><i class="fa fa-user"></i></a>
+                                <div class="text">
+                                    <span class="text-muted">Welcome!</span>
+                                    <div>
+                                        <a href="#" class="pt-2">Sign in</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div> <!-- widgets-wrap.// -->
+                    </div> <!-- col.// -->
+                </div> <!-- row.// -->
+            </div> <!-- container.// -->
+        </section> <!-- header-main .// -->
+    </header> <!-- section-header.// -->
+
+
+    <nav class="navbar navbar-main navbar-expand-lg navbar-light border-bottom">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav"
+                aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="p-1 ml-auto navbar-nav">
-                    <li class="pl-3 pr-3 text-center nav-item  text-green">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Home</a>
                     </li>
-                    <li class="pl-3 pr-3 text-center nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
                     </li>
-                    <li class="pl-3 pr-3 text-center nav-item">
-                        <a class="nav-link" href="#"> Blog</a>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
                     </li>
-                    <li class="pl-3 pr-3 active text-center nav-item">
+
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Store</a>
                     </li>
-                    <li class="pl-3 pr-3 text-center nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
-                    <li class="pl-3 pr-3 text-center nav-item">
-                        <a class="nav-link" href="#">
-                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart3" fill="currentColor"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
-                            </svg>
-                            <span id="AddToCart">
-                            </span>
-                            </i>
-                        </a>
-                    </li>
-                    <li class="pl-3 pr-3 text-center nav-item bod-green">
-                        <a class="nav-link" href="#">Login</a>
-                    </li>
                 </ul>
-
-            </div>
-
-        </nav>
+            </div> <!-- collapse .// -->
+        </div> <!-- container .// -->
+    </nav>
 
     </header>
 
@@ -166,7 +201,8 @@
                     </h6>
                 </div>
 
-                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
                     <div class="card-body container text-muted">
                         <p>Gelmox Jollof Rice Mix is a complete condiment for cooking complete jollof rice mix. It
                             offers a
@@ -247,8 +283,32 @@
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                     <div class="card-body">
-                        <p class="text-muted text-center"> No reviews yet</p>
-
+                        <div class="card card text-white bg-dark mb-3">
+                            <div class="card-header font-weight-bolder"> <span><svg width="1em" height="1em"
+                                        viewBox="0 0 16 16" class="bi bi-file-person" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M4 1h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H4z" />
+                                        <path d="M13.784 14c-.497-1.27-1.988-3-5.784-3s-5.287 1.73-5.784 3h11.568z" />
+                                        <path fill-rule="evenodd" d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg></span> nonsoamadi@aol.com</div>
+                            <div class="card-body">
+                                <p> Wow! What a beautiful Product! I enjoyed it!! </p>
+                            </div>
+                        </div>
+                        <div class="card card text-white bg-dark mb-3">
+                            <div class="card-header font-weight-bolder"> <span><svg width="1em" height="1em"
+                                        viewBox="0 0 16 16" class="bi bi-file-person" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M4 1h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H4z" />
+                                        <path d="M13.784 14c-.497-1.27-1.988-3-5.784-3s-5.287 1.73-5.784 3h11.568z" />
+                                        <path fill-rule="evenodd" d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg></span> loisamadi@aol.com</div>
+                            <div class="card-body">
+                                <p> Jollof has never tasted this good since forever!! </p>
+                            </div>
+                        </div>
                         <form class="mt-4 p-5 mb-3">
                             <div class="form-group">
                                 <label for="email">Email address</label>
